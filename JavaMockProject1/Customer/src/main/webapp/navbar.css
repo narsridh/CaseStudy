@@ -1,0 +1,91 @@
+@charset "ISO-8859-1";
+nav
+{
+    background-color: black;
+    padding: 20px 3px 20px 3px;
+   position:fixed;
+    width: 100%;
+    left: -6px;
+    top: -8px;
+ 
+}
+
+nav li a
+{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 60px;
+    transition: color .5s;
+    font-size: 25px;
+     
+}
+
+.brand-logo
+{
+   color: cornsilk;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+nav li,nav ul
+{
+    display: inline;
+}
+
+nav ul
+{
+margin-left: 530px;
+}
+
+.brand-logo
+{
+   margin-left: 65px;
+}
+
+nav li a:hover
+{
+
+color:yellow;   
+}
+.logo{
+	height: 50px;
+	width: 110px;
+	top: 5px;
+	left: 30px;
+	position: relative;
+	
+}
+.logo:hover{
+	color: orange;
+transform: scale(1.1);
+filter: none;}
+
+.a1{
+	
+	top: -10px;
+	left: -530px;
+	position: relative;	
+}
+.a2{
+	
+	top: -10px;
+	left: 275px;
+	position: relative;	
+}
+.a3{
+	
+	top: -10px;
+	left: 263px;
+	position: relative;	
+}
+.a4{
+	
+	top: -10px;
+	left: 280px;
+	position: relative;	
+}
+.a3:hover{
+	color: red;
+transform: scale(1.1);
+filter: none;}
